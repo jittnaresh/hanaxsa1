@@ -1,0 +1,18 @@
+namespace NEW_PROJECT.HDB.model;
+
+context users {
+
+    /*@@layout{"layoutInfo":{"x":-466,"y":-150.5}}*/
+    entity Entity_1 {
+        key id        : String(10) not null;
+            firstname : String(10);
+            lastname  : String(10);
+            gender    : String(10);
+            email     : String(10);
+            phone     : String(10);
+            password  : String(10);
+    };
+};
+
+/*@@layout{"layoutInfo":{"x":48,"y":-146}}*/
+type tname : Integer;
